@@ -26,8 +26,8 @@ Route::get('/sobre', function () {
 })->name('front.about');
 
 Route::get('/', function () {
-    return view('front.index');
-})->name('front.index');
+    return redirect()->route('admin.login');
+});
 
 Route::get('/painel', function () {
     return view('admin.login');
@@ -46,7 +46,7 @@ Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/painel/admin', [AuthController::class, 'dashboard'])->name('admin.home');
-Route::get('/painel/login', [AuthController::class, 'loginform'])->name('admin.login');
+Route::get('/painel/login', [AuthController::class, 'loginform'])->name('admin.login2');
 Route::get('/painel/logou', [AuthController::class, 'logout'])->name('admin.logout');
 
 Route::get('/candidato', function (){
