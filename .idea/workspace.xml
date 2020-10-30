@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:production" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0039a9cc-870f-4425-91b2-62b71e41184f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/pagination.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/passwords.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/validation.php" beforeDir="false" />
-    </list>
+    <list default="true" id="0039a9cc-870f-4425-91b2-62b71e41184f" name="Default Changelist" comment="candidato" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +192,7 @@
       <workItem from="1604063387367" duration="699000" />
       <workItem from="1604069141424" duration="1571000" />
       <workItem from="1604087137866" duration="8184000" />
-      <workItem from="1604098927687" duration="2505000" />
+      <workItem from="1604098927687" duration="2712000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1604060063201</created>
@@ -186,33 +201,58 @@
       <option name="project" value="LOCAL" />
       <updated>1604060063201</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="candidato">
+      <created>1604101803606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604101803606</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0" />
+    <MESSAGE value="candidato" />
+    <option name="LAST_COMMIT_MESSAGE" value="candidato" />
   </component>
   <component name="WindowStateProjectService">
     <state x="444" y="138" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604056708153">
       <screen x="68" y="0" width="1292" height="768" />
     </state>
     <state x="444" y="138" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604056708153" />
-    <state x="339" y="0" key="CommitChangelistDialog2" timestamp="1604060062142">
-      <screen x="68" y="0" width="1292" height="768" />
+    <state x="340" y="0" key="CommitChangelistDialog2" timestamp="1604101811621">
+      <screen x="68" y="0" width="1298" height="768" />
     </state>
     <state x="339" y="0" key="CommitChangelistDialog2/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604060062142" />
+    <state x="340" y="0" key="CommitChangelistDialog2/68.0.1298.768/1366.0.1366.768@68.0.1298.768" timestamp="1604101811621" />
     <state x="306" y="116" key="Vcs.Push.Dialog.v2" timestamp="1604060124680">
       <screen x="68" y="0" width="1292" height="768" />
     </state>
     <state x="306" y="116" key="Vcs.Push.Dialog.v2/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604060124680" />
-    <state x="531" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604060128706">
-      <screen x="68" y="0" width="1292" height="768" />
+    <state x="559" y="117" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604101820226">
+      <screen x="68" y="0" width="1298" height="768" />
+    </state>
+    <state x="559" y="117" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/68.0.1298.768/1366.0.1366.768@68.0.1298.768" timestamp="1604101820226" />
+    <state x="533" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604101860960">
+      <screen x="68" y="0" width="1298" height="768" />
     </state>
     <state x="531" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604060128706" />
+    <state x="533" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/68.0.1298.768/1366.0.1366.768@68.0.1298.768" timestamp="1604101860960" />
     <state x="948" y="121" width="892" height="577" key="dock-window-1" timestamp="1604013567483">
       <screen x="1360" y="-74" width="1280" height="1024" />
     </state>
