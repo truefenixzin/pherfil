@@ -42,6 +42,7 @@ Route::get('/painel', function () {
     return view('admin.login');
 })->name('admin.login');
 //
+
 //
 //Route::get('/painel/registro', function () {
 //    return view('admin.registro');
