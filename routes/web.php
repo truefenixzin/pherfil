@@ -16,6 +16,15 @@ use App\Http\Controllers\candidatoController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/',function (){
+    return redirect()->route('candidato');
+});
+
+Route::get('/candidato', function (){
+    return  view('admin.candidato');
+})->name('candidato');
+Route::post('/candidato/candidatar', [candidatoController::class, 'candidatar'])->name('candidatar');
+
 
 //Route::get('/contato', function () {
 //    return view('front.contato');
@@ -50,13 +59,5 @@ use App\Http\Controllers\candidatoController;
 //Route::get('/painel/logou', [AuthController::class, 'logout'])->name('admin.logout');
 //Route::post('/painel/login/do', [AuthController::class, 'login'])->name('admin.login.do');
 
-Route::get('/',function (){
-    return redirect()->route('candidato');
-});
-
-Route::get('/candidato', function (){
-    return  view('admin.candidato');
-})->name('candidato');
-Route::post('/candidato/candidatar', [candidatoController::class, 'candidatar'])->name('candidatar');
 
 
