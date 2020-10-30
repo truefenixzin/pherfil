@@ -17,44 +17,46 @@ use App\Http\Controllers\candidatoController;
 |
 */
 
-Route::get('/contato', function () {
-    return view('front.contato');
-})->name('front.contact');
+//Route::get('/contato', function () {
+//    return view('front.contato');
+//})->name('front.contact');
+//
+//Route::get('/sobre', function () {
+//    return view('front.sobre');
+//})->name('front.about');
+//
+//Route::get('/', function () {
+//    return view('front.index');
+//})->name('front.index');
+//
+//Route::get('/painel', function () {
+//    return view('admin.login');
+//})->name('admin.login');
+//
+//
+//Route::get('/painel/registro', function () {
+//    return view('admin.registro');
+//})->name('admin.register');
+//
+//Route::get('/laravel', function () {
+//    return view('welcome');
+//});
+//
+//Auth::routes();
+//
+//Route::get('/home', [HomeController::class, 'index'])->name('home');
+//Route::get('/painel/admin', [AuthController::class, 'dashboard'])->name('admin.home');
+//Route::get('/painel/login', [AuthController::class, 'loginform'])->name('admin.login');
+//Route::get('/painel/logou', [AuthController::class, 'logout'])->name('admin.logout');
+//Route::post('/painel/login/do', [AuthController::class, 'login'])->name('admin.login.do');
 
-Route::get('/sobre', function () {
-    return view('front.sobre');
-})->name('front.about');
-
-Route::get('/', function () {
-    return redirect()->route('admin.login');
+Route::get('/',function (){
+    return redirect()->route('candidato');
 });
-
-Route::get('/painel', function () {
-    return view('admin.login');
-})->name('admin.login');
-
-
-Route::get('/painel/registro', function () {
-    return view('admin.registro');
-})->name('admin.register');
-
-Route::get('/laravel', function () {
-    return view('welcome');
-});
-
-Auth::routes();
-
-Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::get('/painel/admin', [AuthController::class, 'dashboard'])->name('admin.home');
-Route::get('/painel/login', [AuthController::class, 'loginform'])->name('admin.login2');
-Route::get('/painel/logou', [AuthController::class, 'logout'])->name('admin.logout');
 
 Route::get('/candidato', function (){
     return  view('admin.candidato');
 })->name('candidato');
-
-
-Route::post('/painel/login/do', [AuthController::class, 'login'])->name('admin.login.do');
 Route::post('/candidato/candidatar', [candidatoController::class, 'candidatar'])->name('candidatar');
 
 
