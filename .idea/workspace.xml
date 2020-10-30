@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0039a9cc-870f-4425-91b2-62b71e41184f" name="Default Changelist" comment="" />
+    <list default="true" id="0039a9cc-870f-4425-91b2-62b71e41184f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +22,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -165,7 +175,9 @@
       <workItem from="1603917409352" duration="6494000" />
       <workItem from="1603972315047" duration="152000" />
       <workItem from="1603996008902" duration="13663000" />
-      <workItem from="1604025056069" duration="7808000" />
+      <workItem from="1604025056069" duration="8458000" />
+      <workItem from="1604063387367" duration="699000" />
+      <workItem from="1604069141424" duration="1571000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1604060063201</created>
