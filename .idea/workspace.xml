@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0039a9cc-870f-4425-91b2-62b71e41184f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/lang/pt-BR/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/pt-BR/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/pt-BR/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/pt-BR/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/pt-BR/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/candidato.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="0039a9cc-870f-4425-91b2-62b71e41184f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +13,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -172,18 +165,42 @@
       <workItem from="1603917409352" duration="6494000" />
       <workItem from="1603972315047" duration="152000" />
       <workItem from="1603996008902" duration="13663000" />
-      <workItem from="1604025056069" duration="7127000" />
+      <workItem from="1604025056069" duration="7808000" />
     </task>
+    <task id="LOCAL-00001" summary="v1.0">
+      <created>1604060063201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604060063201</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="444" y="138" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604056708153">
       <screen x="68" y="0" width="1292" height="768" />
     </state>
     <state x="444" y="138" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604056708153" />
+    <state x="339" y="0" key="CommitChangelistDialog2" timestamp="1604060062142">
+      <screen x="68" y="0" width="1292" height="768" />
+    </state>
+    <state x="339" y="0" key="CommitChangelistDialog2/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604060062142" />
+    <state x="306" y="116" key="Vcs.Push.Dialog.v2" timestamp="1604060124680">
+      <screen x="68" y="0" width="1292" height="768" />
+    </state>
+    <state x="306" y="116" key="Vcs.Push.Dialog.v2/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604060124680" />
+    <state x="531" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604060128706">
+      <screen x="68" y="0" width="1292" height="768" />
+    </state>
+    <state x="531" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604060128706" />
     <state x="948" y="121" width="892" height="577" key="dock-window-1" timestamp="1604013567483">
       <screen x="1360" y="-74" width="1280" height="1024" />
     </state>
