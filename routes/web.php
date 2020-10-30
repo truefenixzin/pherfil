@@ -38,9 +38,9 @@ Route::post('/candidato/candidatar', [candidatoController::class, 'candidatar'])
 //    return view('front.index');
 //})->name('front.index');
 //
-//Route::get('/painel', function () {
-//    return view('admin.login');
-//})->name('admin.login');
+Route::get('/painel', function () {
+    return view('admin.login');
+})->name('admin.login');
 //
 //
 //Route::get('/painel/registro', function () {

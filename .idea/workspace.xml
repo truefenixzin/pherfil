@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/pagination.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/passwords.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/laravel-pt-BR/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +178,7 @@
       <workItem from="1604063387367" duration="699000" />
       <workItem from="1604069141424" duration="1571000" />
       <workItem from="1604087137866" duration="8184000" />
-      <workItem from="1604098927687" duration="24000" />
+      <workItem from="1604098927687" duration="821000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1604060063201</created>
