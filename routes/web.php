@@ -17,7 +17,7 @@ use App\Http\Controllers\candidatoController;
 |
 */
 
-
+//travando apenas o método de candidato
 Route::get('/',function (){
     return redirect()->route('candidato');
 });
