@@ -25,7 +25,1174 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0039a9cc-870f-4425-91b2-62b71e41184f" name="Default Changelist" comment="candidato">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_18_153401_create_posts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/alarm-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/alarm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/align-bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/align-end.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/align-middle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/align-start.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/align-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/app-indicator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/app.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/archive-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-90deg-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-90deg-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-90deg-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-90deg-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-bar-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-bar-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-bar-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-bar-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-clockwise.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-counterclockwise.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-left-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-left-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-left-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-left-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-right-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-right-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-right-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-right-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-short.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-left-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-left-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-left-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-left-short.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-left-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-left-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-repeat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-return-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-return-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-right-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-right-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-right-short.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-right-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-right-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-left-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-left-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-left-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-left-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-right-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-right-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-right-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-right-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-short.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrows-angle-contract.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrows-angle-expand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrows-collapse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrows-expand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrows-fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrows-move.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/aspect-ratio-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/aspect-ratio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/award-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/backspace-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/backspace-reverse-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/backspace-reverse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-4k-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-4k.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-8k-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-8k.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-ad-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-cc-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-cc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-hd-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-hd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-tm-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-tm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-vo-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/badge-vo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bag-check-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bag-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bag-dash-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bag-dash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bag-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bag-plus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bag-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bag-x-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bag-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bar-chart-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bar-chart-line-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bar-chart-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bar-chart-steps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bar-chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/basket-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/basket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/basket2-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/basket2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/basket3-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/basket3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/battery-charging.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/battery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bell-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bezier.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bezier2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/binoculars-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/blockquote-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/blockquote-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/book-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/book-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-check-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-dash-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-dash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-heart-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-plus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-star-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-x-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmarks-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmarks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookshelf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bootstrap-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bootstrap-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bootstrap-reboot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bootstrap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/border-width.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bounding-box-circles.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bounding-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-down-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-down-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-in-down-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-in-down-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-in-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-in-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-in-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-in-up-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-in-up-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-in-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-up-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-up-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box-seam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/braces.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bricks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/briefcase-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/brightness-alt-high-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/brightness-alt-high.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/brightness-alt-low-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/brightness-alt-low.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/brightness-high-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/brightness-high.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/brightness-low-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/brightness-low.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/broadcast-pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/broadcast.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/brush-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bucket-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bucket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bug-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calculator-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-check-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-date-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-date.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-day-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-event-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-event.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-minus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-month-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-month.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-plus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-range-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-range.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-week-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-x-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-check-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-date-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-date.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-day-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-day.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-event-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-event.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-minus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-month-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-month.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-plus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-range-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-range.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-week-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-week.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-x-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar3-event-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar3-event.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar3-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar3-range-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar3-range.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar3-week-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar3-week.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar4-event.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar4-range.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar4-week.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/camera-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/camera-reels-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/camera-reels.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/camera-video-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/camera-video-off-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/camera-video-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/camera-video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/camera2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/capslock-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/capslock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/card-checklist.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/card-heading.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/card-image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/card-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/card-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-down-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-down-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-down-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-left-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-left-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-left-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-right-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-right-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-right-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-up-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-up-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-up-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart-check-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart-dash-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart-dash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart-plus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart-x-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cash-stack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cast.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-dots-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-dots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-left-dots-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-left-dots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-left-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-left-quote-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-left-quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-left-text-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-left-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-quote-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-right-dots-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-right-dots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-right-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-right-quote-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-right-quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-right-text-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-right-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-square-dots-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-square-dots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-square-quote-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-square-quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-square-text-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-square-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-text-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check-all.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check2-all.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check2-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check2-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-bar-contract.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-bar-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-bar-expand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-bar-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-bar-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-bar-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-compact-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-compact-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-compact-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-compact-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-contract.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-double-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-double-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-double-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-double-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-expand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/circle-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/circle-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/clipboard-data.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/clipboard-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/clipboard-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/clipboard-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/clock-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/clock-history.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-arrow-down-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-arrow-up-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-check-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-download-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-minus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-plus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-slash-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-slash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-upload-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud-upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/code-slash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/code-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/collection-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/collection-play-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/collection-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/collection.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/columns-gap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/command.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/compass-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cone-striped.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/controller.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cpu-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cpu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/credit-card-2-back-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/credit-card-2-back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/credit-card-2-front-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/credit-card-2-front.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/credit-card-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cup-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cup-straw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cursor-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cursor-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cursor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dash-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dash-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dash-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dash-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/diagram-2-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/diagram-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/diagram-3-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/diagram-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/diamond-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/diamond-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/diamond.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dice-1-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dice-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dice-2-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dice-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dice-3-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dice-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dice-4-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dice-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dice-5-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dice-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dice-6-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dice-6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/display-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/display.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/distribute-horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/distribute-vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/door-closed-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/door-open-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/dot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/droplet-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/droplet-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/droplet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/earbuds.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/easel-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/easel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/egg-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/egg-fried.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/eject-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-angry-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-angry.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-dizzy-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-dizzy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-expressionless-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-expressionless.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-frown-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-frown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-heart-eyes-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-heart-eyes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-laughing-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-laughing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-neutral-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-neutral.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-smile-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-smile-upside-down-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-smile-upside-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-smile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-sunglasses-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-sunglasses.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-wink-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/emoji-wink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/envelope-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/envelope-open-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation-diamond-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation-diamond.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation-octagon-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation-octagon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation-triangle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclude.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/eye-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/eye-slash-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/eyeglasses.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-arrow-down-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-arrow-up-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-bar-graph-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-bar-graph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-binary-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-binary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-break-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-break.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-check-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-code-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-diff-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-diff.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-arrow-down-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-arrow-up-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-bar-graph-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-bar-graph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-binary-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-binary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-break-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-break.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-check-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-code-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-diff-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-diff.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-easel-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-easel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-excel-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-excel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-font-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-image-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-lock-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-lock2-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-lock2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-medical-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-medical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-minus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-music-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-person-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-person.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-play-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-plus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-post-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-post.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-ppt-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-ppt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-richtext-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-richtext.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-ruled-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-ruled.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-slides-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-slides.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-spreadsheet-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-spreadsheet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-text-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-word-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-word.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-x-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-zip-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark-zip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-earmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-easel-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-easel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-excel-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-font-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-image-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-lock-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-lock2-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-lock2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-medical-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-minus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-music-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-person-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-person.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-play-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-plus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-post-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-post.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-ppt-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-ppt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-richtext-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-richtext.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-ruled-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-ruled.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-slides-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-slides.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-spreadsheet-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-spreadsheet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-text-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-word-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-x-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-zip-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-zip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/files-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/files.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/filter-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/filter-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/filter-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/filter-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/filter-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/filter-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/flag-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/flower1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/flower2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/flower3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder-symlink-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder-symlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder2-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/fonts.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/forward-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/front.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/fullscreen-exit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/funnel-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/funnel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/gear-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/gear-wide-connected.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/gear-wide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/gear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/geo-alt-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/geo-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/geo-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/geo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/gift-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/globe2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/graph-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/graph-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grid-1x2-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grid-1x2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grid-3x2-gap-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grid-3x2-gap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grid-3x2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grid-3x3-gap-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grid-3x3-gap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grid-3x3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grid-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hand-index-thumb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hand-index.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hand-thumbs-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hand-thumbs-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/handbag-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/handbag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hdd-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hdd-network-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hdd-network.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hdd-rack-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hdd-rack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hdd-stack-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hdd-stack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/heart-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/heart-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/heptagon-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/heptagon-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/heptagon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hexagon-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hexagon-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hexagon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hourglass-bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hourglass-split.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hourglass-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/house-door-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/house-door.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/house-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/house.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/image-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/image-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/inbox-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/inboxes-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/inboxes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/info-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/info-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/info-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/input-cursor-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/input-cursor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/intersect.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-album.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-bookmark-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-medical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-richtext.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/journals.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/joystick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/justify-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/justify-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/justify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/kanban-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/kanban.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/key-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/keyboard-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/ladder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/lamp-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/lamp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/laptop-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layers-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layers-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layout-sidebar-inset-reverse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layout-sidebar-inset.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layout-sidebar-reverse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layout-sidebar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layout-split.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layout-text-sidebar-reverse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layout-text-sidebar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layout-text-window-reverse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layout-text-window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layout-three-columns.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/layout-wtf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/life-preserver.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/lightning-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/lightning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/link-45deg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/list-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/list-nested.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/list-stars.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/list-task.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/lock-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/mailbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/mailbox2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/map-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/markdown-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/markdown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/menu-app-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/menu-app.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/menu-button-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/menu-button-wide-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/menu-button-wide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/menu-button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/menu-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/menu-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/mic-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/mic-mute-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/mic-mute.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/mic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/minecart-loaded.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/minecart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/mouse2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/mouse3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/music-note-beamed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/music-note-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/music-note.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/music-player-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/music-player.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/node-minus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/node-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/node-plus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/node-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/nut-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/nut.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/octagon-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/octagon-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/octagon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/option.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/outlet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/patch-check-fll.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/patch-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/patch-exclamation-fll.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/patch-exclamation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/patch-minus-fll.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/patch-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/patch-plus-fll.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/patch-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/patch-question-fll.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/patch-question.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pause-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/peace-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pen-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pencil-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pencil-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pentagon-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pentagon-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pentagon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/people-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/people.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-badge-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-badge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-bounding-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-check-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-dash-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-dash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-lines-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-plus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-x-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/person.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/phone-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/phone-landscape-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/phone-landscape.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/phone-vibrate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pie-chart-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pie-chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pip-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/play-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/plug-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/plus-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/plus-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/power.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/printer-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/printer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/puzzle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/puzzle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/question-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/question-diamond-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/question-diamond.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/question-octagon-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/question-octagon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/question-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/question-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/receipt-cutoff.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/reception-0.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/reception-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/reception-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/reception-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/reception-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/reply-all-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/reply-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/rss-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/scissors.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/segmented-nav.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/share-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-exclamation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-fill-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-fill-exclamation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-fill-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-fill-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-fill-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-lock-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-shaded.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-slash-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-slash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shield.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shift-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shop-window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/signpost-2-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/signpost-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/signpost-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/signpost-split-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/signpost-split.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/signpost.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sim-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sim.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/skip-backward-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/skip-backward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/skip-end-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/skip-end.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/skip-forward-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/skip-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/skip-start-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/skip-start.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/slash-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/slash-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/slash-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/slash-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sliders.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/smartwatch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-down-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-up-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/soundwave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/speaker-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/speaker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/spellcheck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/square-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/star-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/stickies-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/stickies.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sticky-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sticky.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/stop-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/stoplights-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/stoplights.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/stopwatch-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/subtract.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/suit-club-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/suit-club.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/suit-diamond-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/suit-diamond.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/suit-heart-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/suit-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/suit-spade-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/suit-spade.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sunglasses.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tablet-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tablet-landscape-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tablet-landscape.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tag-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tags-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-forward-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-inbound-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-inbound.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-minus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-outbound-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-outbound.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-plus-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-x-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/telephone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/terminal-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/text-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/text-indent-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/text-indent-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/text-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/text-paragraph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/text-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/textarea-resize.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/textarea-t.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/textarea.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/three-dots-vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/three-dots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/toggle2-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/toggle2-on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/toggles.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/toggles2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/trash-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/trash2-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/trash2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tree-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/triangle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/triangle-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/triangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/trophy-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/truck-flatbed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tv-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/type-bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/type-h1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/type-h2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/type-h3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/type-italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/type-strikethrough.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/type-underline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/type.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/ui-checks-grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/ui-checks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/ui-radios-grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/ui-radios.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/union.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/unlock-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/upc-scan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/upc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/vector-pen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/view-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/view-stacked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/volume-down-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/volume-mute-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/volume-off-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/volume-up-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/vr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/wallet-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/wallet2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/watch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/wifi-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/wifi-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/wifi-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/x-circle-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/x-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/x-diamond-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/x-diamond.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/x-octagon-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/x-octagon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/x-square-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/x-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/zoom-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/zoom-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/comite.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/comitecadastro.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/painel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/painel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/align-center.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/align-center.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/archive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/archive.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/arrow-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/asterisk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/asterisk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/at.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/at.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/award.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/award.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/backspace.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/backspace.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/battery-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/battery-full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/battery-half.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/battery-half.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bell.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bell.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bicycle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bicycle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/binoculars.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/binoculars.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/book.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/book.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bookmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/border-style.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/border-style.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/box.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/briefcase.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/briefcase.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/brush.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/brush.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bug.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bug.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/building.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/building.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bullseye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/bullseye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calculator.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calculator.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-check.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-day.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-day.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-minus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-minus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-week.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar-week.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/camera.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/camera.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/caret-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart-plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cart-plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check-square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check-square.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/check.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/chevron-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/clipboard-check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/clipboard-check.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/clipboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/clipboard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/cloud.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/code.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/code.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/columns.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/columns.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/compass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/compass.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/credit-card.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/credit-card.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/crop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/crop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/door-closed.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/door-closed.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/door-open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/door-open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/egg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/egg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/eject.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/eject.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/envelope-open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/envelope-open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/envelope.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/envelope.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation-triangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation-triangle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/exclamation.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/eye-slash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/eye-slash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/eye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/eye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-code.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-code.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-excel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-excel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-image.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-medical.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-medical.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-word.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file-word.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/file.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/film.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/film.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/filter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/filter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/flag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/flag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder-minus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder-minus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder-plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder-plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/folder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/forward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/forward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/gem.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/gem.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/gift.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/gift.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/globe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/globe.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grip-horizontal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grip-horizontal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grip-vertical.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/grip-vertical.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hammer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hammer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hdd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hdd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/headphones.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/headphones.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/headset.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/headset.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/heart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hourglass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/hourglass.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/image.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/images.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/images.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/inbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/inbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/info-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/info-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/info.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/info.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/key.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/key.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/keyboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/keyboard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/laptop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/laptop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/list-ol.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/list-ol.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/list-ul.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/list-ul.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/list.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/list.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/lock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/lock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/moon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/moon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/mouse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/mouse.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/newspaper.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/newspaper.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/paperclip.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/paperclip.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/paragraph.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/paragraph.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pause.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pause.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/peace.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/peace.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/pen.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/percent.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/percent.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/phone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/play.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/play.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/plug.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/plug.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/plus-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/plus-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/plus-square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/plus-square.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/question-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/question-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/question.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/question.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/receipt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/receipt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/reply-all.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/reply-all.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/reply.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/reply.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/rss.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/rss.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/screwdriver.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/screwdriver.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/server.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/server.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/share.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/share.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/slash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/slash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-alpha-down-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-alpha-down-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-alpha-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-alpha-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-alpha-up-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-alpha-up-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-alpha-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-alpha-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-numeric-down-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-numeric-down-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-numeric-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-numeric-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-numeric-up-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-numeric-up-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-numeric-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-numeric-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sort-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/square.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/star-half.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/star-half.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/stop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/stop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/stopwatch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/stopwatch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sun.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/sun.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/table.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/table.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tablet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tablet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tags.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tags.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/terminal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/terminal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/thermometer-half.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/thermometer-half.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/thermometer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/thermometer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/toggle-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/toggle-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/toggle-on.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/toggle-on.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tools.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tools.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/trash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/trash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tree.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tree.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/trophy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/trophy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/truck.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/truck.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/tv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/unlock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/unlock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/upload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/upload.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/voicemail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/voicemail.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/volume-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/volume-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/volume-mute.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/volume-mute.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/volume-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/volume-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/volume-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/volume-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/wallet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/wallet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/wifi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/wifi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/wrench.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/back/vendor/fontawesome-free/svgs/solid/wrench.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/registro.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/registro.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +1201,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -161,9 +1330,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -177,7 +1348,22 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0039a9cc-870f-4425-91b2-62b71e41184f" name="Default Changelist" comment="" />
@@ -196,7 +1382,20 @@
       <workItem from="1604087137866" duration="8184000" />
       <workItem from="1604098927687" duration="2712000" />
       <workItem from="1604102048107" duration="1033000" />
-      <workItem from="1604103280418" duration="2346000" />
+      <workItem from="1604103280418" duration="2690000" />
+      <workItem from="1604148896124" duration="3795000" />
+      <workItem from="1604153465826" duration="19000" />
+      <workItem from="1604953893935" duration="913000" />
+      <workItem from="1605005648392" duration="595000" />
+      <workItem from="1605018337248" duration="611000" />
+      <workItem from="1605019769221" duration="1227000" />
+      <workItem from="1605093908688" duration="5864000" />
+      <workItem from="1605099911423" duration="2604000" />
+      <workItem from="1605117157253" duration="6100000" />
+      <workItem from="1605180553553" duration="75000" />
+      <workItem from="1605528137770" duration="308000" />
+      <workItem from="1605713207319" duration="10578000" />
+      <workItem from="1605783824029" duration="5486000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1604060063201</created>
@@ -216,19 +1415,20 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1.0" />
@@ -245,17 +1445,32 @@
     </state>
     <state x="339" y="0" key="CommitChangelistDialog2/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604060062142" />
     <state x="340" y="0" key="CommitChangelistDialog2/68.0.1298.768/1366.0.1366.768@68.0.1298.768" timestamp="1604101811621" />
+    <state x="491" y="138" key="FileChooserDialogImpl" timestamp="1605180571851">
+      <screen x="63" y="0" width="1297" height="768" />
+    </state>
+    <state x="491" y="138" key="FileChooserDialogImpl/63.0.1297.768/1360.-74.1280.1024@63.0.1297.768" timestamp="1605180571851" />
+    <state x="494" y="138" key="FileChooserDialogImpl/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604153478842" />
+    <state x="1515" y="-37" key="SettingsEditor" timestamp="1605783942854">
+      <screen x="1366" y="-74" width="1280" height="1024" />
+    </state>
+    <state x="1515" y="-37" key="SettingsEditor/62.0.1304.768/1366.-74.1280.1024@1366.-74.1280.1024" timestamp="1605783942854" />
+    <state x="215" y="28" key="SettingsEditor/63.0.1303.768@63.0.1303.768" timestamp="1604954667877" />
     <state x="306" y="116" key="Vcs.Push.Dialog.v2" timestamp="1604060124680">
       <screen x="68" y="0" width="1292" height="768" />
     </state>
     <state x="306" y="116" key="Vcs.Push.Dialog.v2/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604060124680" />
+    <state x="410" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1605713212128">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="410" y="208" key="com.intellij.ide.util.TipDialog/62.0.1304.768/1366.-74.1280.1024@62.0.1304.768" timestamp="1605713212128" />
     <state x="559" y="117" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604101820226">
       <screen x="68" y="0" width="1298" height="768" />
     </state>
     <state x="559" y="117" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/68.0.1298.768/1366.0.1366.768@68.0.1298.768" timestamp="1604101820226" />
-    <state x="533" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604101860960">
-      <screen x="68" y="0" width="1298" height="768" />
+    <state x="1819" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605101003389">
+      <screen x="1360" y="-74" width="1280" height="1024" />
     </state>
+    <state x="1819" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/63.0.1297.768/1360.-74.1280.1024@1360.-74.1280.1024" timestamp="1605101003389" />
     <state x="531" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604060128706" />
     <state x="533" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/68.0.1298.768/1366.0.1366.768@68.0.1298.768" timestamp="1604101860960" />
     <state x="948" y="121" width="892" height="577" key="dock-window-1" timestamp="1604013567483">
@@ -267,9 +1482,10 @@
       <screen x="1360" y="-74" width="1280" height="1024" />
     </state>
     <state x="1656" y="199" key="run.anything.popup/68.0.1292.768/1360.-74.1280.1024@1360.-74.1280.1024" timestamp="1604007971061" />
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604055850636">
-      <screen x="68" y="0" width="1292" height="768" />
+    <state x="375" y="89" width="675" height="678" key="search.everywhere.popup" timestamp="1605096981301">
+      <screen x="63" y="0" width="1297" height="768" />
     </state>
+    <state x="375" y="89" width="675" height="678" key="search.everywhere.popup/63.0.1297.768/1360.-74.1280.1024@63.0.1297.768" timestamp="1605096981301" />
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/68.0.1292.768/1360.-74.1280.1024@68.0.1292.768" timestamp="1604055850636" />
     <state x="380" y="89" width="672" height="678" key="search.everywhere.popup/68.0.1298.768/1366.0.1366.768@68.0.1298.768" timestamp="1603921623032" />
   </component>

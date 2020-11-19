@@ -11,15 +11,23 @@
                 </div>
                 <form class="user" method="post" action="{{route('admin.login.do')}}">
                     @csrf
+
                     <hr>
                     <div class="form-group">
-                        <input type="email" name="email" :value="old('email')" class="form-control form-control-user"
+                        @if ($errors->any())
+                            <div class="alert alert-danger text-center">
+                                @foreach ($errors->all() as $error)
+                                    {{ $error }}<br/>
+                                @endforeach
+                            </div>
+                        @endif
+                        <input type="email" name="email" value="{{old('login')}}" class="form-control form-control-user"
                                id="email" aria-describedby="emailHelp"
-                               placeholder="informe o seu login..." required autofocus>
+                               placeholder="informe o seu login..." autofocus>
                     </div>
                     <div class="form-group">
                         <input type="password" name="password" id="password" class="form-control form-control-user"
-                               placeholder="Informe sua senha..." required>
+                               placeholder="Informe sua senha...">
                     </div>
                     <div class="form-group">
                         <div class="custom-control custom-checkbox small">
@@ -35,10 +43,7 @@
                 </form>
                 <hr>
                 <div class="text-center">
-                    <a class="small" href="forgot-password.html">Esqueceu sua senha??</a>
-                </div>
-                <div class="text-center">
-                    <a class="small" href="{{route('admin.register')}}">Crie seu login!</a>
+{{--                    <a class="small" href="forgot-password.html">Esqueceu sua senha??</a>--}}
                 </div>
             </div>
         </div>

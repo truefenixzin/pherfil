@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\candidatoController;
+use App\Http\Controllers\PostController;
 
 
 /*
@@ -19,49 +20,49 @@ use App\Http\Controllers\candidatoController;
 
 //travando apenas o método de candidato
 Route::get('/',function (){
-    return redirect()->route('candidato');
-});
+    return view('front.index');
+})->name('front.index');
 
-Route::get('/candidato', function (){
-    return  view('admin.candidato');
-})->name('candidato');
-Route::post('/candidato/candidatar', [candidatoController::class, 'candidatar'])->name('candidatar');
+//Route::get('/candidato', function (){
+//    return  view('admin.candidato');
+//})->name('candidato');
 
+Route::get('/contato', function () {
+    return view('front.contato');
+})->name('front.contact');
 
-//Route::get('/contato', function () {
-//    return view('front.contato');
-//})->name('front.contact');
-//
-//Route::get('/sobre', function () {
-//    return view('front.sobre');
-//})->name('front.about');
-//
-//Route::get('/', function () {
-//    return view('front.index');
-//})->name('front.index');
-//
+Route::get('/sobre', function () {
+    return view('front.sobre');
+})->name('front.about');
+
 Route::get('/painel', function () {
     return view('admin.login');
 })->name('admin.login');
 
+Route::get('/painel/registro', function () {
+    return view('admin.registro');
+})->name('admin.register');
 
-//
-//
-//Route::get('/painel/registro', function () {
-//    return view('admin.registro');
-//})->name('admin.register');
-//
-//Route::get('/laravel', function () {
-//    return view('welcome');
-//});
-//
-//Auth::routes();
-//
+Route::get('/laravel', function () {
+    return view('welcome');
+});
+Route::get('/painel/login', function (){
+    return view('admin.login');
+})->name('admin.login');
+
+Auth::routes();
+
 //Route::get('/home', [HomeController::class, 'index'])->name('home');
-//Route::get('/painel/admin', [AuthController::class, 'dashboard'])->name('admin.home');
-//Route::get('/painel/login', [AuthController::class, 'loginform'])->name('admin.login');
-//Route::get('/painel/logou', [AuthController::class, 'logout'])->name('admin.logout');
-//Route::post('/painel/login/do', [AuthController::class, 'login'])->name('admin.login.do');
+
+Route::get('/painel/admin', [AuthController::class, 'dashboard'])->name('admin.home');
+Route::get('/painel/admin/comite/pautas',[PostController::class, 'index'])->name('admin.pautas');
+Route::get('/painel/admin/comite/pautas/cadastrar',[PostController::class, 'create'])->name('admin.pauta.cadastro');
+Route::post('/painel/admin/comite/pautas/cadastrar',[PostController::class, 'store'])->name('pauta.store');
 
 
+//Route::resource('/painel/admin/comite/pautas'.[PostController::class,'index'])->name('admin.pautas');
+
+Route::get('/painel/logout', [AuthController::class, 'logout'])->name('admin.logout');
+Route::post('/painel/login/do', [AuthController::class, 'login'])->name('admin.login.do');
+Route::post('/painel/registro/do', [AuthController::class, 'registrar'])->name('admin.register.do');
 
