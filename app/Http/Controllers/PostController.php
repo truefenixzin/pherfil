@@ -41,19 +41,11 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //        //object -> prop -> save
         $post = new Post;
         $post->title = $request->title;
         $post->situation = $request->situation;
         $post->sugestion = $request->sugestion;
         $post->save();
-
-//        Post::create([
-//            'title' => $request->title,
-//            'subtitle' => $request->subtitle,
-//            'description' => $request->description
-//        ]);
-
         return redirect()->route('admin.pautas');
     }
 
