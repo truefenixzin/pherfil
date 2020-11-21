@@ -1,6 +1,6 @@
 @extends('admin.layout.layout')
 @section('content')
-    <div class="container my-5">
+    <div class="container-lg-12 ml-3 my-1">
         <a class="btn btn-success ml-3 mb-5" href="{{route('admin.pauta.cadastro')}}">Cadastrar novo artigo</a>
         <?php
         if(!empty($posts)){
