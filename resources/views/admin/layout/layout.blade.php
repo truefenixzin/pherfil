@@ -139,9 +139,9 @@
         <!-- End of Main Content -->
 
         <!-- Footer -->
-        <footer class="sticky-footer bg-white">
+        <footer class="sticky-footer bg-primary">
             <div class="container my-auto">
-                <div class="copyright text-center my-auto">
+                <div class="copyright text-center text-white my-auto">
                     <span>Copyright &copy; Pherfil | Pherfiltec {{date('Y')}}</span>
                 </div>
             </div>

@@ -35,14 +35,11 @@
 </nav>
 <!-- Masthead -->
 <header class="masthead text-white text-center">
-    <div class="container-fluid">
+        <p><h1 class="mb-5">PHERFIL | PHERFILTEC</h1></p>
+        <p><h1 class="mb-5">SEJA BEM VINDO A INTRANET!</h1></p>
         <p>
-        <h1 class="mb-5">PHERFIL | PHERFILTEC</h1></p>
-        <p>
-        <h1 class="mb-5">SEJA BEM VINDO A INTRANET!</h1></p>
-        <p>
-        <h1 class="mb-5">MANTENHA-SE ATUALIZADO SOBRE TUDO QUE ESTÁ ROLANDO</h1></p>
-    </div>
+        <h1 class="mb-5">MANTENHA-SE ATUALIZADO SOBRE TUDO </h1></p>
+        <p><h1>QUE ESTÁ ROLANDO</h1></p>
 </header>
 <!-- Footer -->
 <footer class="footer bg-light">

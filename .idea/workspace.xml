@@ -25,9 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0039a9cc-870f-4425-91b2-62b71e41184f" name="Default Changelist" comment="candidato">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -237,7 +236,7 @@
       <workItem from="1605805808425" duration="29000" />
       <workItem from="1605805863927" duration="25000" />
       <workItem from="1605822665401" duration="683000" />
-      <workItem from="1605972892994" duration="96000" />
+      <workItem from="1605972892994" duration="3342000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1604060063201</created>
