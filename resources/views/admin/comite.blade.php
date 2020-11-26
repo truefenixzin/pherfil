@@ -1,10 +1,12 @@
 @extends('admin.layout.layout')
 @section('content')
+
     <div class="container-lg-12 ml-3 my-1">
         <a class="btn btn-success ml-3 mb-5" href="{{route('admin.pauta.cadastro')}}">Cadastrar novo artigo</a>
         <?php
         if(!empty($posts)){
         ?>
+
         <section class="articles_list">
             <?php
             foreach ($posts as $post){
@@ -29,19 +31,20 @@
 
                 <small>Criado em: {{date('d/m/Y H:i', strtotime($post->created_at))}}
                     | Editado em: {{date('d/m/Y H:i', strtotime($post->updated_at))}}</small>
-                {{--                <form action="" method="post" class="mt-3">--}}
-                {{--                    @csrf--}}
-                {{--                    @method('DELETE')--}}
-                <p><a href="" class="btn btn-primary">Editar</a></p>
-                {{--                    <button type="submit" class="btn btn-danger">Excluir</button>--}}
-                {{--                </form>--}}
+                <form action="" method="post" class="mt-3">
+                    @csrf
+                    @method('DELETE')
+                    <p><a href="" class="btn btn-primary">Editar</a></p>
+                    <button type="submit" class="btn btn-danger">Excluir</button>
+                </form>
             </article>
             <hr>
             <?php
             }
             ?>
         </section>
-    <?php
-    }
-    ?>
+        <?php
+        }
+        ?>
+    </div>
 @endsection
