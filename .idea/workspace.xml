@@ -25,22 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0039a9cc-870f-4425-91b2-62b71e41184f" name="Default Changelist" comment="candidato">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_24_224457_add_user_admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/back/img/pherfil_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/site/css/carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/site/img/pherfil_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/painel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/painel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/comite.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/comite.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/simples.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/simples.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,6 +252,7 @@
       <workItem from="1606414664861" duration="2781000" />
       <workItem from="1606422703566" duration="4216000" />
       <workItem from="1606427025505" duration="3439000" />
+      <workItem from="1606430891588" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1604060063201</created>

@@ -31,12 +31,7 @@
 
                 <small>Criado em: {{date('d/m/Y H:i', strtotime($post->created_at))}}
                     | Editado em: {{date('d/m/Y H:i', strtotime($post->updated_at))}}</small>
-                <form action="" method="post" class="mt-3">
-                    @csrf
-                    @method('DELETE')
-                    <p><a href="" class="btn btn-primary">Editar</a></p>
-                    <button type="submit" class="btn btn-danger">Excluir</button>
-                </form>
+
             </article>
             <hr>
             <?php
