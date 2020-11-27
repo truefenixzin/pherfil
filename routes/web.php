@@ -5,6 +5,7 @@ use App\Http\Controllers;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\candidatoController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\UserController;
 
 
 /*
@@ -54,7 +55,9 @@ Auth::routes();
 
 //Route::get('/home', [HomeController::class, 'index'])->name('home');
 
+
 Route::get('/painel/admin', [AuthController::class, 'dashboard'])->name('admin.home');
+Route::get('/painel/admin/usuarios', [UserController::class, 'show'])->name('admin.users');
 Route::get('/painel/admin/comite/pautas',[PostController::class, 'index'])->name('admin.pautas');
 Route::get('/painel/admin/comite/pautas/cadastrar',[PostController::class, 'create'])->name('admin.pauta.cadastro');
 Route::post('/painel/admin/comite/pautas/cadastrar',[PostController::class, 'store'])->name('pauta.store');
